@@ -54,9 +54,6 @@ Status ListDelete(List *list, int i, ElemType *e){
 }
 
 void testList() {
-    int num = 0;
-    ElemType *el = &num;
-
     List list;
     List *listPoint = &list;
 
